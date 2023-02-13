@@ -1,0 +1,237 @@
+body {
+  margin: auto 0;
+  height: 612px;
+  width: 728px;
+  left: -919px;
+  top: -797px;
+  border-radius: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: pink;
+  
+}
+
+.header-container {
+  /* header */
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 375px;
+  height: 67px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+#logo {
+  left: 4%;
+  right: 62.13%;
+  top: 23.88%;
+  bottom: 26.84%;
+
+  background: #000000;
+
+  height: 33.02000045776367px;
+  width: 127px;
+  margin: 16px 233px 18px 15px;
+  border-radius: 0px;
+}
+
+#avatar-photo {
+  /* your-avatar */
+  height: 34px;
+  width: 34px;
+  left: 325px;
+  top: 16px;
+  border-radius: 50%;
+
+  position: absolute;
+  left: 86.67%;
+  right: 4.27%;
+  top: 23.88%;
+  bottom: 25.37%;
+}
+
+.post-container {
+  /* post-content-1 */
+
+  position: absolute;
+  width: 375px;
+  height: 55px;
+  left: 0px;
+  top: 67px;
+
+  background: #ffffff;
+}
+
+.user-full-name {
+  /* user-full-name */
+
+  position: absolute;
+  width: 307px;
+  height: 16px;
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+
+  color: #000000;
+  margin: 11px 17px 518px 51px;
+}
+
+#vincent-vangogh {
+  /* Vincent van Gogh */
+
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  margin: 10px 331px 501px 10px;
+  border-radius: 50%;
+  background: url(image);
+}
+
+.location {
+  /* location-text */
+
+  position: absolute;
+  width: 307px;
+  height: 15px;
+  margin: 27px 17px 503px 51px;
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.post-image {
+  /* post-image */
+
+  position: absolute;
+  width: 375px;
+  height: 375px;
+  left: 0px;
+  top: 55px;
+  margin-bottom: 0px;
+}
+
+.buttons-container {
+  height: 22.134628295898438px;
+  width: 104.33683013916016px;
+  /* icons */
+
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 104.34px;
+  height: 22.13px;
+  margin: 451px 0px 72px 10px;
+  padding: 0px;
+  background-color: transparent;
+}
+
+#like-button {
+  height: 22.134628295898438px;
+  width: 23.299606323242188px;
+  left: 10px;
+  top: 451px;
+  margin: 0px 342px 72px 0px;
+}
+
+#comment-button {
+  height: 18.653621673583984px;
+  width: 18.653621673583984px;
+  border-radius: 0px;
+  margin: 0px 20px 0px 40px;
+  position: absolute;
+}
+
+#direct-message-button {
+  height: 18.652986526489258px;
+  width: 22.38358497619629px;
+
+  /* share */
+
+  position: absolute;
+
+  margin: 0px 0px 0px 70px;
+}
+
+.likes {
+  height: 16px;
+  width: 343px;
+  left: 13px;
+  top: 485px;
+  font-family: Source Sans Pro;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  * like-count */
+
+
+position: absolute;
+width: 343px;
+height: 16px;
+margin-left: 13px;
+margin-top: 552px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 16px;
+color: #000000;
+margin-bottom: 12px;
+}
+
+.h2{
+    font-family: Source Sans Pro;
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Source Sans Pro;
+font-size: 13px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+#username{
+
+font-family: Source Sans Pro;
+font-size: 13px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+width: 343px;
+height: 16px;
+left: 13px;
+top: 513px;
+margin: 12px 0px 16px 13px;
+}
+
+#caption {
+font-family: Source Sans Pro;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+font-weight: 400;
+margin: 12px 19px 16px 0px;
+}
